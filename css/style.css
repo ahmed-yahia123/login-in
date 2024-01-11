@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --main-color:#f16405;
+}
+
+body{
+    background-image: url(../images/88.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+
+.home{
+    padding-top: 50px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#boxContainer{
+height: 50%;
+padding: 30px;
+
+
+}
+
+
+#boxContainer h1{
+    color: var(--main-color);
+}
+
+
+.btn-outline-light{
+ 
+    color: var(--main-color);
+
+}
+
+
+
+.btn-outline-light:hover{
+color: white;
+background-color: var(--main-color);
+border-color: var(--main-color);
+}
+
+
+.form-control{
+    border: 1px solid white;
+background-color: #24353F;
+color: white;
+    
+}
+
+
+.form-control::placeholder{
+    color: white;
+}
+
+
+.form-control:focus{
+    background-color: #24353F;
+    color: white;
+
+}
+
+
+
+
+
